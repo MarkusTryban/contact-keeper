@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/MarkusTryban/contact-keeper#readme",
   "dependencies": {
+    "@testing-library/jest-dom": "^4.0.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.2.2",
     "express": "^4.17.1",
