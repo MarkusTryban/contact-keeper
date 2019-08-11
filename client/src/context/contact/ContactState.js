@@ -74,7 +74,7 @@ const ContactState = props => {
     <ContactContext.Provider
       value={{
         contacts: state.contacts,
-        current: state.contacts,
+        current: state.current,
         addContact,
         deleteContact,
         setCurrent,
