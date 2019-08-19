@@ -36,7 +36,7 @@ const Register = () => {
           <input
             type='password'
             name='password'
-            value={name}
+            value={password}
             onChange={onChange}
           />
         </div>
