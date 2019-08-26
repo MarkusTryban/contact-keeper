@@ -32,7 +32,14 @@ const Login = props => {
 
   const onSubmit = e => {
     e.preventDefault();
-    console.log('Login submit');
+    if (email === '' || password === '') {
+      setAlert('Please fill in all fields', 'danger');
+    } else {
+      login({
+        email,
+        password
+      });
+    }
   };
 
   return (
