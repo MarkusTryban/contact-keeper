@@ -12,10 +12,10 @@ const Navbar = ({ title, icon }) => {
     <Fragment>
       <li>Hello {user && user.name}</li>
       <li>
-        <span href='#!'>
-          <i className='fas fa-sign out alt'></i>{' '}
+        <a href='#!'>
+          <i className='fas fa-sign-out-alt' />{' '}
           <span className='hide-sm'>Logout</span>
-        </span>
+        </a>
       </li>
     </Fragment>
   );
