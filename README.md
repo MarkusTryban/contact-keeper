@@ -1,6 +1,6 @@
 # Contact Keeper
 
-> This is a full stack MERN application. Including react hooks, context & JWT authentication.
+> This is a MERN stack CRUD application. Including react hooks, context & JWT authentication.
 
 ## Usage
 
