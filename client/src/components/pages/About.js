@@ -4,14 +4,11 @@ const About = () => {
   return (
     <div>
       <h1>About This App</h1>
-      <p className='bg-dark p'>
-        <strong>Version: </strong> 0.1.0
+      <p className='my-1'>
+        This is a full stack React app for keeping contacts
       </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti culpa
-        consectetur, eaque doloremque quod ipsam enim expedita autem tempora
-        dolore suscipit laboriosam incidunt eum consequatur est reprehenderit
-        animi molestiae perspiciatis accusantium quia. Minus, porro amet!
+      <p className='bg-dark p'>
+        <strong>Version: </strong> 1.0.0
       </p>
     </div>
   );
