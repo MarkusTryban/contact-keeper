@@ -105,10 +105,10 @@ const AuthState = props => {
         user: state.user,
         error: state.error,
         register,
-        clearErrors,
         loadUser,
         login,
-        logout
+        logout,
+        clearErrors
       }}
     >
       {props.children}
